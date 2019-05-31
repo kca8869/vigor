@@ -1,0 +1,27 @@
+.footer{
+  padding: 9rem;
+  background-color: #333333;
+
+  &__link{
+    text-decoration: underline;
+    transition: $transition;
+    &:hover{
+      text-decoration: none;
+      color: $color-white;
+    }
+  }
+  &__list{
+    list-style: none;
+  }
+  &__email{
+    flex-grow: 2;
+    background-color: transparent;
+    border:2px solid $color-text;
+    margin-right: -2px;
+  }
+}
+.social-link{
+  font-size: 3rem;
+  padding-right: 2rem;
+  color: $color-text;
+}

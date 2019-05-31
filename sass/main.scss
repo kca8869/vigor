@@ -1,11 +1,15 @@
 @import "abstract/mixins";
 @import "abstract/variables";
+@import "abstract/utilities";
 
 @import "base/reset";
 @import "base/typography";
 
 @import "componets/btn";
 @import "componets/navigation";
+@import "componets/icon-card";
+@import "componets/testimonial";
+@import "componets/modal";
 
 @import "layout/footer";
 @import "layout/header";

@@ -1,0 +1,42 @@
+.icon-card{
+  text-align: center;
+
+
+  &__icon{
+
+    font-size: 5rem;
+
+    @include center;
+    transform: translate(-50%,-50%) rotate(-45deg);
+      &--white{
+        color: $color-white;
+      }
+    }
+    &__icon-border{
+      position: relative;
+      display: inline-block;
+      border:2px solid $color-primary;
+      border-radius: 7px;
+      height: 10rem;
+      width: 10rem;
+      transform: rotate(45deg);
+        &--white{
+          border:none
+        }
+      }
+
+
+  &__title{
+      color: $color-black;
+      &--white{
+        color: $color-white;
+      }
+  }
+
+  &__text{
+    color: $color-text;
+    &--white{
+      color: $color-white;
+    }
+  }
+}

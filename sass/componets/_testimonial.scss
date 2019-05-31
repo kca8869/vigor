@@ -1,0 +1,27 @@
+.testimonial{
+  background-color: $color-white;
+  padding: 4rem;
+  &__name{
+    color: $color-black;
+  }
+  &__name-box{
+    text-align: left;
+
+  }
+  &__img{
+    margin: 2rem;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 100%;
+    &-box{
+
+    }
+  }
+  &__text{
+  }
+  &__arrows{
+    font-size: 4rem;
+    position: relative;
+    color: $color-black;
+  }
+}

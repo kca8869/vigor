@@ -3,12 +3,289 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Vigor||Practice</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <div class="video-modal">
+      <iframe class="video-modal__iframe" width="560" height="315" src="https://www.youtube.com/embed/_VnYSoMI-9Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <header>
+      <nav class="navbar navbar-expand-lg justify-content-around">
+        <a href="#" class="navbar-brand logo-font">vigor</a>
+        <button type="button" name="button" class="navbar-toggler navbar-light" data-toggle="collapse" data-target="#navbarMobile">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarMobile">
+          <ul class="navbar-nav">
+            <li class="navbar-item active">
+              <a href="#" class="navbar-link">home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">about</a>
+            </li>
+            <li class="navbar-item dropdown">
+              <a href="#" class="navbar-link dropdown-toggle" id="servicesDropdown" role="button" data-toggle="dropdown">services</a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item navbar-link">crossfit</a>
+                <a href="#" class="dropdown-item navbar-link">fitness</a>
+                <a href="#" class="dropdown-item navbar-link">powerlifting</a>
+                <a href="#" class="dropdown-item navbar-link">gym</a>
+                <a href="#" class="dropdown-item navbar-link">bodyshaping</a>
+                <a href="#" class="dropdown-item navbar-link">circut</a>
+              </div>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Gallery</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">coaches</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" action="index.html" method="post">
+            <input type="text" name="" placeholder="search..." class="text-font p-3 navbar__search">
+            <button type="submit" name="button" class="navbar__search-icon text-font">
+              <span class="fa fa-search p-3"></span>
+            </button>
+
+          </form>
+        </div>
+      </nav>
+      <div class="header__img-box">
+        <div class="header__text-box col-12 col-lg-7">
+          <h1 class="header__title heading-one-font">best fitness in the city</h1>
+          <div class="header__video">
+            <a href="" class="header__video-bg">
+              <span class="header__video-bg-triangle"></span>
+            </a>
+            <a href="#" class="header__video-text text-font">watch video</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section-services">
+        <div class="row">
+          <div class="icon-card col-12 col-md-6 col-lg-3">
+            <div class="icon-card__icon-border mb-5 mt-5">
+              <span class="icon-card__icon flaticon-yoga-mat"></span>
+            </div>
+            <h3 class="icon-card__title heading-two-font">Quality Service</h3>
+            <p class="icon-card__text text-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestias id voluptatum unde sequi soluta illo amet.</p>
+          </div>
+          <div class="icon-card col-12 col-md-6 col-lg-3">
+            <div class="icon-card__icon-border mb-5 mt-5">
+              <span class="icon-card__icon flaticon-weight"></span>
+            </div>
+            <h3 class="icon-card__title heading-two-font">Spacious Gym</h3>
+            <p class="icon-card__text text-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestias id voluptatum unde sequi soluta illo amet.</p>
+          </div>
+          <div class="icon-card col-12 col-md-6 col-lg-3">
+            <div class="icon-card__icon-border mb-5 mt-5">
+              <span class="icon-card__icon flaticon-bike"></span>
+            </div>
+            <h3 class="icon-card__title heading-two-font">Live Healthy</h3>
+            <p class="icon-card__text text-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestias id voluptatum unde sequi soluta illo amet.</p>
+          </div>
+          <div class="icon-card col-12 col-md-6 col-lg-3">
+            <div class="icon-card__icon-border mb-5 mt-5">
+              <span class="icon-card__icon flaticon-pulse"></span>
+            </div>
+            <h3 class="icon-card__title heading-two-font">Crossfit</h3>
+            <p class="icon-card__text text-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestias id voluptatum unde sequi soluta illo amet.</p>
+          </div>
+        </div>
+      </section>
+      <section class="section-fitness">
+        <div class="row">
+          <div class="col-12 col-lg-6 ">
+            <img src="images/img_2_sm.jpg" alt="woman exercising with weights">
+          </div>
+          <div class="col-12 col-lg-6 ">
+            <div class="feature-box padding-lg">
+              <h2 class="section-heading-font pb-5">Enjoy The Fitness</h2>
+              <p class="text-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eos enim recusandae. Eaque ullam ducimus eum, ipsum sequi quisquam quae maxime earum hic facilis, praesentium laudantium quo repellendus animi dolores.</p>
+              <p class="text-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, officiis sint! Consequatur, pariatur? Asperiores accusamus in incidunt reprehenderit excepturi accusantium laudantium corporis aliquid, vitae ullam eligendi, blanditiis, ea porro! Molestiae?</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-benefits">
+        <div class="row">
+          <div class="icon-card col-12 col-md-6 col-lg-4">
+            <div class="icon-card__icon-border icon-card__icon-border--white mb-5 mt-5">
+              <span class="icon-card__icon icon-card__icon--white flaticon-yoga-mat"></span>
+            </div>
+            <h3 class="icon-card__title icon-card__title--white heading-two-font">Quality Service</h3>
+            <p class="icon-card__text icon-card__text--white text-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestias id voluptatum unde sequi soluta illo amet.</p>
+          </div>
+          <div class="icon-card col-12 col-md-6 col-lg-4">
+            <div class="icon-card__icon-border icon-card__icon-border--white mb-5 mt-5">
+              <span class="icon-card__icon icon-card__icon--white flaticon-bike"></span>
+            </div>
+            <h3 class="icon-card__title icon-card__title--white heading-two-font">Quality Service</h3>
+            <p class="icon-card__text icon-card__text--white text-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestias id voluptatum unde sequi soluta illo amet.</p>
+          </div>
+          <div class="icon-card icon-card; col-12 col-md-6 col-lg-4">
+            <div class="icon-card__icon-border icon-card__icon-border--white mb-5 mt-5">
+              <span class="icon-card__icon icon-card__icon--white flaticon-pulse"></span>
+            </div>
+            <h3 class="icon-card__title icon-card__title--white heading-two-font">Quality Service</h3>
+            <p class="icon-card__text icon-card__text--white text-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestias id voluptatum unde sequi soluta illo amet.</p>
+          </div>
+        </div>
+      </section>
+      <section class="section-healthy">
+        <div class="row">
+          <div class="col-12 col-lg-6 ">
+            <div class="feature-box padding-lg">
+              <h2 class="section-heading-font pb-5">Enjoy The Fitness</h2>
+              <p class="text-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eos enim recusandae. Eaque ullam ducimus eum, ipsum sequi quisquam quae maxime earum hic facilis, praesentium laudantium quo repellendus animi dolores.</p>
+              <p class="text-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, officiis sint! Consequatur, pariatur? Asperiores accusamus in incidunt reprehenderit excepturi accusantium laudantium corporis aliquid, vitae ullam eligendi, blanditiis, ea porro! Molestiae?</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 ">
+            <img src="images/img_1_sm.jpg" alt="woman exercising with weights">
+          </div>
+
+        </div>
+      </section>
+      <section class="section-testimonial text-center padding-lg">
+        <h2 class="section-heading-font m-5">testimonial</h2>
+        <div class="carousel slide" id="testimonialCarousel" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonial col-lg-6 m-auto">
+                <div class="row align-items-center">
+                  <img class="testimonial__img" src="images/person_1.jpg" alt="picture of John Smith">
+                  <div class="testimonial__name-box text-font">
+                    <h4 class="testimonial__name m-0">John Smith</h4>
+                    <p class="testimonial__title  m-0">CEO of XYZ</p>
+                  </div>
+                </div>
+                <blockquote cite="http://">
+                  <p class="testimonial__text text-font">Lorem ipsum dolor sit amet, Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </blockquote>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="testimonial col-lg-6 m-auto">
+                <div class="row align-items-center">
+                  <img class="testimonial__img" src="images/person_2.jpg" alt="picture of John Smith">
+                  <div class="testimonial__name-box text-font">
+                    <h4 class="testimonial__name m-0">John Smith</h4>
+                    <p class="testimonial__title m-0">CEO of XYZ</p>
+                  </div>
+                </div>
+                <blockquote cite="http://">
+                  <p class="testimonial__text text-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </blockquote>
+
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="testimonial col-lg-6 m-auto">
+                <div class="row align-items-center">
+                  <img class="testimonial__img" src="images/person_3.jpg" alt="picture of John Smith">
+                  <div class="testimonial__name-box text-font">
+                    <h4 class="testimonial__name m-0">John Smith</h4>
+                    <p class="testimonial__title m-0">CEO of XYZ</p>
+                  </div>
+                </div>
+                <blockquote cite="http://">
+                  <p class="testimonial__text text-font"> blockquote Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 m-auto d-flex justify-content-around p-5">
+            <a href="#testimonialCarousel" class="carousel-control-prev testimonial__arrows" role="button" data-slide="prev">
+              <span class="fa fa-chevron-left "></span>
+              <span class="sr-only">prev</span>
+            </a>
+            <a href="#testimonialCarousel" class="carousel-control-next testimonial__arrows" role="button" data-slide="next">
+              <span class="fa fa-chevron-right "></span>
+            </a>
+          </div>
+
+        </div>
+      </section>
+      <section class="section-cta padding-lg ">
+        <div class="col-12 col-lg-6 text-center m-auto">
+          <h2 class="cta-font mb-5">Join with us now!</h2>
+          <p class="cta-text-font mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <button type="button" name="button" class="btn btn-warning pl-5 pr-5 pt-4 pb-4 heading-two-font">Get In Touch!</button>
+        </div>
+
+      </section>
+      <footer class="footer">
+        <div class="row">
+          <div class="col-12 col-lg-4 p-4">
+            <h3 class="heading-two-font color-white">About Vigor</h3>
+            <p class="text-font">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias nihil numquam aspernatur inventore sint eligendi nostrum!</p>
+            <nav>
+              <ul class="social-list footer__list d-flex mt-5">
+                <li class="social-item">
+                  <a href="#" class="social-link fa fa-twitter-square"></a>
+                </li>
+                <li class="social-item">
+                  <a href="#" class="social-link fa fa-facebook-square"></a>
+                </li>
+                <li class="social-item">
+                  <a href="#" class="social-link fa fa-linkedin-square"></a>
+                </li>
+                <li class="social-item">
+                  <a href="#" class="social-link fa fa-instagram"></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-12 col-lg-4 p-4">
+            <h3 class="heading-two-font color-white">About Vigor</h3>
+            <p class="text-font m-0">Address:</p>
+            <p class="text-font mb-5">34 Street Name, City Name Here, United States</p>
+            <p class="text-font m-0">Telephone:</p>
+            <p class="text-font mb-5">+1 242 4942 290</p>
+            <p class="text-font m-0">Email:</p>
+            <p class="text-font mb-5">info@yourdomain.com</p>
+            <h3 class="heading-two-font color-white">subscribe</h3>
+            <form class="d-flex flex-wrap flex-sm-nowrap" action="index.html" method="post">
+              <input type="email" name="" value="" class="form-control-lg footer__email text-font p-4" placeholder="Email">
+              <button type="submit" name="button" class="btn btn-warning heading-two-font p-0 pl-4 pr-4">subscribe</button>
+            </form>
+          </div>
+          <div class="col-12 col-lg-4 p-4">
+            <h3 class="heading-two-font color-white">Quick Links</h3>
+            <nav>
+              <ul class="footer__list">
+                <li>
+                  <a href="#" class="text-font footer__link">About</a>
+                </li>
+                <li>
+                  <a href="#" class="text-font footer__link">Terms of Use</a>
+                </li>
+                <li>
+                  <a href="#" class="text-font footer__link">Disclaimers</a>
+                </li>
+                <li>
+                  <a href="#" class="text-font footer__link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="col-12 text-center m-5">
+          <p class="text-font">Copyright © 2019 All Rights Reserved | This template is made with <span class="fa fa-heart"></span> by <a href="#" class="footer__link text-font">Colorlib</a></p>
+
+        </div>
+      </footer>
+    </main>
     <script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
     <script src="node_modules/popper.js/dist/popper.min.js" charset="utf-8"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
