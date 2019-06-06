@@ -13,6 +13,8 @@
     text-align: center;
     @include center;
     transform: translate(-50%,-50%);
+    animation-name: start;
+    animation-duration: 1s;
   }
   &__video-bg{
     margin: 2rem;
